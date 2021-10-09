@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="css/minecraft.css">
+<script src="js/minecraft.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="navbar">
+    <a href="#home">Home</a>
+    <a href="#news">About</a>
+    <div class="dropdown">
+        <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="minecraft.html">Minecraft</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
+</div>
+
+<div class="tab">
+    <button class="tablinks" onclick="openMenu(event, 'Storage Cabinet')">Storage Cabinet</button>
+    <button class="tablinks" onclick="openMenu(event, 'Mod2')">Mod 2</button>
+    <button class="tablinks" onclick="openMenu(event, 'Mod3')">Mod 3</button>
+</div>
+
+<!-- Tab content -->
+<div id="Storage Cabinet" class="tabcontent">
+    <h3>Storage Cabinet</h3>
+    <a href="https://minecraft.curseforge.com/projects/storage-cabinet"><img
+            src="http://cf.way2muchnoise.eu/full_storage-cabinet_downloads.svg" alt="Storage Cabinet Downloads"></a>
+    <a href="https://minecraft.curseforge.com/projects/storage-cabinet"><img
+            src="http://cf.way2muchnoise.eu/versions/Available%20For%20Minecraft_storage-cabinet_all.svg"
+            alt="Storage Cabinet Versions"></a>
+    <p>Adds several tiers of Storage Cabinets to Minecraft. Each cabinet can hold a specific item type or item tag.</p>
+    <h4>Note: Currently only the 1.17 and the 1.16 (Forge, Fabric and Architectury) versions are actively maintained/will receive support.</h4>
+    <h3>Features</h3>
+    <ul>
+        <li>
+            <dl>
+                <dt>Storage Cabinets</dt>
+                <dd>- Comes in several tiers including: Wooden (90 slots), Iron (180 Slots), Gold (270 Slots), Diamond (360 Slots), and Emerald (450 Slots)</dd>
+                <dd>- A single cabinet can hold a specific item type regardless of damage or NBT (I.E Enchanted books) or a specific item tag type (I.E Wool or logs)</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt><strong>Cabinet Manager</strong></dt>
+                <dd>- Creates a "network" of Storage Cabinets which can all be accessed via the Cabinet Manager's GUI.</dd>
+                <dd>- The Cabinet Manager also supports inputting and outputting items from all attached cabinet's. I.E For item pipes or for using with a Storage bus.</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>Cabinet Key</dt>
+                <dd>- Locks a cabinet to the currently stored item/tag in it. This lock will persist even after the cabinet is empty. Good for automatic sorting and such.</dd>
+                <dd>- Right click while sneaking to lock/unlock a cabinet</dd>
+                <dd>- Normal right-click on a Cabinet Manager to unlock/lock all attached cabinets. Sneaking right click to invert locked status.</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>Cabinet Upgrade Items</dt>
+                <dd>- Upgrades a Storage Cabinet to be the same tier as the upgrade while preserving all stored items</dd>
+            </dl>
+        </li>
+        <li>
+            <dl>
+                <dt>Dolly</dt>
+                <dd>- Used to pick up a single cabinet for transportation without having to empty it out</dd>
+            </dl>
+        </li>
+    </ul>
+    <h4><a href="https://www.curseforge.com/minecraft/mc-mods/storage-cabinet">CurseForge Page</a></h4>
+    <h4><a href="#">Modrinth Page (Possibly coming soon?)</a></h4>
+    <h4><a href="https://github.com/AshIndigo/Storage_Cabinet/issues">Github Issues Page</a></h4>
+</div>
+
+<div id="Mod2" class="tabcontent">
+    <h3>Mod 2</h3>
+    <p>TODO</p>
+</div>
+
+<div id="Mod3" class="tabcontent">
+    <h3>Mod 3</h3>
+    <p>TODO</p>
+</div>
+</body>
+</html>
